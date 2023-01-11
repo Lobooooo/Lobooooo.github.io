@@ -107,7 +107,7 @@ select.decorated option:hover{
     width: 600px;
     height: 500p;
     background-color: #fff;
-    border-radius: 5px;
+    border-radius: 15px;
     display: none;
     padding: 20px;
 }
