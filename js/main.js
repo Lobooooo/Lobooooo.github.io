@@ -59,5 +59,5 @@
 })
 
 $(document).on('click','.deleteall',function(){
-  $('.appendArea').remove();
+  $('.appendArea').empty();
 })
