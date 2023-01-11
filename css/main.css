@@ -1,0 +1,355 @@
+@font-face {
+    font-family: 'DelaGothicOne-Regular';
+    src: url('/fonts/DelaGothicOne-Regular.ttf')format("woff"),
+         url('/fonts/DelaGothicOne-Regular.woff')format("truetype")
+    
+    /* url('../fonts/DelaGothicOne-Regular.woff') format("woff"),
+           url('../fonts/DelaGothicOne-Regular.ttf') format("truetype"),
+           url('../fonts/DelaGothicOne-Regular.eot') format("embedded-opentype"); */
+}
+
+.one{
+    margin-left: 135px;
+    margin-top: 170px;
+    float:left;
+}
+.two img{
+    width: 550px;
+}
+body{
+    background-image: url(/img/bac.png);
+    background-repeat: no-repeat;
+    background-position:right top;
+    height: 100%;
+    padding: 0;
+    margin: 0;
+}
+body {
+    overflow: hidden;
+  }
+
+.text ul li{
+    color: #FFE600;
+    font-family: 'Bungee Spice', cursive;
+    font-family: 'Noto Sans TC', sans-serif;
+    font-size: 15px;
+    display: inline-block;
+    border-radius: 5px;
+    border: 1px solid rgb(0, 0, 0);
+    padding-left: 53px;
+    padding-right: 53px;
+    padding-top: 8px;
+    padding-bottom: 8px;
+    margin-right: 18px;
+}
+.text ul{
+    padding-top: 10px;
+    padding-left: 0px;
+}
+.text ul a :hover{
+    background-color:#4200FF
+}
+.three{
+    float:left;
+    margin-top: 337px;
+    margin-left: 320px;
+    color: #FFE600;
+}
+#location{
+    border-radius: 5px;
+    width: 360px;
+    height: 40px;
+    margin-bottom: 20px;
+    font-size: medium;
+    font-family: 'Bungee Spice', cursive;
+    font-family: 'Noto Sans TC', sans-serif;
+    color: #818181;
+}
+
+#show{
+    border-radius: 5px;
+    width: 360px;
+    height: 40px;
+    margin-bottom: 20px;
+    margin-bottom: 20px;
+    font-size: medium;
+    font-family: 'Bungee Spice', cursive;
+    font-family: 'Noto Sans TC', sans-serif;
+    color: #818181;
+}
+option{
+    text-align: center;
+    height: 50px;
+}
+.three button{
+    border: none;
+    color: #fff;
+    background-color: #FFE600;
+    border-radius: 5px;
+    width: 360px;
+    height: 40px;
+    font-size: medium;
+    font-family: 'Bungee Spice', cursive;
+    font-family: 'Noto Sans TC', sans-serif;
+}
+.three button:hover{
+    background-color: #d2c021;
+    cursor: pointer;
+}
+select.decorated option:hover{
+    box-shadow: 0 0 10px 100px #4200FF inset;
+}
+.top{
+    position: fixed;
+    top: 10%;
+    left: 470px;
+    z-index: 1050;
+    width: 600px;
+    height: 500p;
+    background-color: #fff;
+    border-radius: 5px;
+    display: none;
+    padding: 20px;
+}
+
+.close{
+    text-align: right;
+    margin-right: 5px;
+    margin-top: 5px;
+}
+
+.black{
+    position: fixed;
+    top: 0px;
+    left: 0px;
+    width: 2000px;
+    height: 800px;
+    display: none;
+}
+
+.in{
+    font-family: 'Bungee Spice', cursive;
+    font-family: 'Noto Sans TC', sans-serif;
+    font-size: 14px;
+    font-weight: 500;
+}
+.in p{
+    margin-top: 3px;
+}
+
+.modal-title{
+    text-align: center;
+    font-family: 'Bungee Spice', cursive;
+    font-family: 'Noto Sans TC', sans-serif;
+    font-weight: 700;
+    color: #4200FF;
+}
+.modalfooter{
+    text-align: center;
+}
+.btn{
+    background-color: #FFE600;
+    color: #fff;
+    font-family: 'Bungee Spice', cursive;
+    font-family: 'Noto Sans TC', sans-serif;
+}
+.cycle{
+    position:absolute;
+    margin-left: 138px;
+    margin-top: 600px;
+    width: 1.7%;
+}
+
+.line{
+    position:absolute;
+    margin-left: 200px;
+    margin-top: 612px;
+    width: 77%;
+    height: 1.5px;
+}
+.car{
+    position:absolute;
+    margin-left: 1460px;
+    margin-top: 16px;
+    width: 50px;
+}
+.count-btn{
+    width: 22px;
+    margin-bottom: 8px;
+    cursor: pointer;
+}
+#addResult{
+    width: 88px;
+    height: 36px;
+    font-family: 'Noto Sans TC', sans-serif;
+    text-align: center;
+    margin-left: 30px;
+    margin-right: 30px;
+    margin-bottom: 10px;
+    color: rgb(129, 129, 129);
+font-size: large;
+font-weight: 700;
+border: none;
+}
+#buy{
+    font-size: medium;
+    height: 40px;
+    width: 500px;
+    font-family: 'Noto Sans TC', sans-serif;
+    background-color: #FFE600;
+    color: #ffffff;
+    border: none;
+    border-radius: 5px;
+    margin-top: 15px;
+    margin-bottom: 11px;
+}
+#buy:hover{
+    background-color: #4200FF;
+}
+.shoppingcar{
+    position:absolute;
+    z-index: 1050;
+    background-color: #FFE600;
+    width: 400px;
+    height: 100%;
+    padding-top: 30px;
+    padding-left: 10px;
+    padding-right: 10px;
+    border-radius: 15px 0px 0px 15px;
+    margin-left: 1135px;
+}
+
+.asideMenu {
+    width: 412.9px;
+    background-color: #FFE600;
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    right: 0;
+    padding: 20px;
+    box-shadow: 0 0 5px hsla(240, 40%, 15%, 0.6);
+    transform: translateX(413px);
+    transition: all 0.5s;
+  }
+.shopcar {
+    transform: translateX(358px);
+    transition: all 0.5s;
+}
+
+/* .fa-chevron-right .rotate {
+        transform: rotate(180deg);
+} */
+
+.shopcar{
+    width: 55px;
+    position: absolute;
+    color: #fff;
+    background-color: #fff;
+    top: 2%;
+    left: -100%;
+    padding: 50px 10px;
+    border-radius: 6px 0 0 6px;
+}
+
+.active{
+    transform: translateX(0px);
+}
+.intro{
+    text-align: justify;
+}
+.intro p{
+    margin-right: 5px;
+}
+.ti{
+    color: #4200FF;
+    margin-bottom: 0px;
+}
+.modal-header{
+    margin-bottom: 15px;
+    color: #4200FF;
+    font-size: large;
+    font-weight: bolder;
+    text-align: center;
+}
+.introout{
+    height: 210px;
+    width: 570px;
+    overflow:auto;
+}
+.introin{
+    height: 200px;
+    width: 560px;
+    overflow:auto;
+} 
+.tic{
+    width: 375px;
+}
+.ticout{
+    position: relative;
+    margin-top: 10px;
+}
+.ticket{
+    font-family: 'Noto Sans TC', sans-serif;
+    position: absolute;
+    z-index: 2;
+    left: 30px;
+    top: 30px;
+    width: 210px;
+    font-weight: 500;
+    font-size: 16px;
+    text-align: justify;
+    
+}
+
+.material-symbols-outlined {
+  position: absolute;
+  left: 270px;
+  top: 20px;
+  font-size: 40px;
+  color: #818181;
+  cursor: pointer;
+    font-variation-settings:
+  'FILL' 1,
+  'wght' 700,
+  'GRAD' 200,
+  'opsz' 48
+}
+.material-symbols-outlined:hover{
+    color: #4200FF;
+}
+.buyval{
+    position: absolute;
+    top: 60px;
+    left: 180px;
+    color: #818181;
+}
+.showval{
+    color: #FFE600;
+}
+.menuout{
+    height: 610px;
+    width: 570px;
+    overflow:auto;
+}
+.menuin{
+    height: 600px;
+    width: 560px;
+    overflow:auto;
+}
+.deleteall{
+    position: absolute;
+    top:650px;
+    margin-left: 130px;
+    width: 138px;
+    height: 35px;
+    border-radius: 5px;
+    border: none;
+    background-color: white;
+    color: #FFE600;
+    font-family: 'Noto Sans TC', sans-serif;
+    font-weight: 500;
+}
+.deleteall:hover{
+    background-color: #818181;
+    color: #fff;
+}

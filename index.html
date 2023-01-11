@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin><link href="https://fonts.googleapis.com/css2?family=Bungee+Spice&family=Noto+Sans+TC:wght@500;700&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet" href="https://cdn.staticfile.org/twitter-bootstrap/3.3.7/css/bootstrap.min.css">
+	<script src="https://cdn.staticfile.org/jquery/2.1.1/jquery.min.js"></script>
+	<script src="https://cdn.staticfile.org/twitter-bootstrap/3.3.7/js/bootstrap.min.js"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin><link href="https://fonts.googleapis.com/css2?family=Noto+Sans+TC:wght@500;700;900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
+    <link href="./css/main.css" rel="stylesheet">
+</head>
+<body>
+<div class="zero">
+    <img class="cycle" src="/img/Ellipse 1.png">
+    <img class="line" src="/img/Vector 2.png">
+    <div class="one">
+        <div class="two">
+            <img src="/img/text.png">
+        </div>
+        <div class="text">
+            <ul>
+                <a href="#"><li>展覽單位</li></a>
+                <a href="#"><li>你的時間</li></a>
+                <a href="#"><li>你的位置</li></a>
+            </ul>
+            
+        </div>
+    </div>
+    <div class="three">
+        <select id="location">
+            <option value="locationno">您的位置</option>
+            <option value="keelung">基隆市</option>
+            <option class="1" value="new">新北市</option>
+            <option value="taipei">台北市</option>
+            <option value="taoyuan">桃園市</option>
+            <option value="hsinchu">新竹市</option>
+            <option value="hsinchu2">新竹縣</option>
+            <option value="miaoli">苗栗縣</option>
+            <option value="taichung">台中市</option>
+            <option value="changhua">彰化縣</option>
+            <option value="hard">南投縣</option>
+            <option value="yunlin">雲林縣</option>
+            <option value="home">嘉義市</option>
+            <option value="home2">嘉義縣</option>
+            <option value="tainan">台南市</option>
+            <option value="tall">高雄市</option>
+            <option value="pin">屏東縣</option>
+            <option value="taitung">台東縣</option>
+            <option value="flower">花蓮縣</option>
+            <option value="nice">宜蘭縣</option>
+            <!-- <option value="penghu">澎湖縣</option>
+            <option value="gold">金門縣</option>
+            <option value="lien">連江縣</option> -->
+        </select><br>
+        <select id="show">
+            <option value="showno">展覽名稱</option>
+        </select><br>
+        <button class="search">查詢</button>
+    </div>
+
+<div class="top">
+    <div class="modal-header">
+        <h4 class="modal-title" id="myModalLabel">
+        </h4>
+    </div>
+
+  <div class="in">
+    
+    <div class="intro">
+        <p class="ti">展覽簡介</p>
+    <div class="introout">
+       <div class="introin">
+        <p class="intro-con"></p>
+       </div>
+    </div>
+    </div>
+    <div class="date">
+        <p class="ti">展覽日期</p>
+        <p class="date-con"></p>
+    </div>
+    <div class="place">
+        <p class="ti">展覽地點</p>
+        <p class="place-con"></p>
+    </div>
+    <div class="price">
+        <p class="ti">展覽價錢</p>
+        <p class="price-con"></p>
+    </div>
+</div>
+
+    <div class="modalfooter">
+        <img class="count-btn minus" data="minus" src="/img/Vector 4.png">
+        <input type="text" value="1" id="addResult">
+        <img class="count-btn add" data="add" src="/img/Group 1.png"><br>
+        <button id="buy">訂購</button>
+    </div>
+</div>
+
+
+<div class="asideMenu">
+<div class="menuout">
+<div class="menuin">
+    <img class="shopcar" src="/img/shoppingcar.png">
+    <div class="content">
+        <div class="ticket"></div>
+        <div class="appendArea"></div>
+    </div>
+    <button class="deleteall">一鍵清空</button>
+  </div>
+</div>
+</div>
+<img class="black" src="/img/Rectangle 11.png">
+
+    <script src="/js/jquery-3.6.3.min.js"></script>
+    <script src="/js/SearchShowAction.js"></script>
+    <script src="/js/main.js"></script>
+</body>
+</html>
